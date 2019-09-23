@@ -1,4 +1,6 @@
 mod models;
+mod stats;
+
 use std::path::Path;
 use models::load_csv;
 
