@@ -1,5 +1,6 @@
 mod models;
 mod stats;
+mod frequency_stack;
 
 use std::path::Path;
 use models::load_csv;
