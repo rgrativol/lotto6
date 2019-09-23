@@ -1,18 +1,20 @@
 use crate::models::Draw;
 
-fn frequency(draws: &Vec<Draw>) -> Vec<(u8, u32)> {
+type DrawSummary = (u8, u32);
+
+fn frequency(draws: &Vec<Draw>) -> Vec<DrawSummary> {
     unimplemented!()
 }
 
-fn most_overdue_numbers(draws: &Vec<Draw>) -> Vec<(u8, u32)> {
+fn most_overdue_numbers(draws: &Vec<Draw>) -> Vec<DrawSummary> {
     unimplemented!()
 }
 
-fn most_common_numbers(draws: &Vec<Draw>) -> Vec<(u8, u32)> {
+fn most_common_numbers(draws: &Vec<Draw>) -> Vec<DrawSummary> {
     unimplemented!()
 }
 
-fn least_often_picked_numbers(draws: &Vec<Draw>) -> Vec<(u8, u32)> {
+fn least_often_picked_numbers(draws: &Vec<Draw>) -> Vec<DrawSummary> {
     unimplemented!()
 }
 
